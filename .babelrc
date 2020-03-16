@@ -1,5 +1,5 @@
 {
-  "presets": ["airbnb"],
+  "presets": ["airbnb", "@babel/preset-env"],
   "plugins": [
     "@babel/plugin-transform-async-to-generator",
     "@babel/plugin-proposal-object-rest-spread",
