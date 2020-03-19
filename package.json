@@ -1,7 +1,7 @@
 {
-  "name": "node-starter",
+  "name": "log-parser",
   "version": "1.0.0",
-  "description": "node starter",
+  "description": "log parser",
   "main": "dist/index.js",
   "scripts": {
     "start": "babel-watch src/index.js",
@@ -24,13 +24,10 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
     "@babel/plugin-transform-async-to-generator": "^7.8.3",
     "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/plugin-transform-spread": "^7.8.3",
     "@babel/preset-env": "^7.8.7",
     "@babel/runtime": "^7.8.7",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-eslint": "^10.1.0",
     "babel-jest": "^25.1.0",
-    "babel-preset-airbnb": "^4.4.0",
-    "babel-preset-env": "^1.7.0",
     "babel-watch": "^7.0.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
@@ -44,6 +41,8 @@
     "prettier-eslint-cli": "^5.0.0"
   },
   "dependencies": {
-    "collections": "^5.1.9"
+    "collections": "^5.1.9",
+    "prettyjson": "^1.2.1",
+    "winston": "^3.2.1"
   }
 }
